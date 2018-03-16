@@ -1,0 +1,28 @@
+20180316 git learning // push/pull//branch
+
+
+learning from csdn 
+http://blog.csdn.net/rj597306518/article/details/71307757
+
+进入要上传的仓库，右键git bash，添加远程地址：
+
+ git remote add origin git@github.com:yourName/yourRepo.git  
+
+后面的yourName和yourRepo表示你再github的用户名和刚才新建的仓库，加完之后进入.git，打开config，这里会多出一个remote “origin”内容，这就是刚才添加的远程地址，也可以直接修改config来配置远程地址。
+
+4.提交、上传
+
+接下来在本地仓库里添加一些文件，比如README，
+
+git add README  
+git commit -m "first commit"  
+
+上传到github：
+
+
+ git push origin master  
+
+git push命令会将本地仓库推送到远程服务器。
+git pull命令则相反。
+
+修改完代码后，使用git status可以查看文件的差别，使用git add 添加要commit的文件，也可以用git add -i来智能添加文件。之后git commit提交本次修改，git push上传到github。
