@@ -4,25 +4,29 @@
 learning from csdn 
 http://blog.csdn.net/rj597306518/article/details/71307757
 
-½øÈëÒªÉÏ´«µÄ²Ö¿â£¬ÓÒ¼ügit bash£¬Ìí¼ÓÔ¶³ÌµØÖ·£º
+è¿›å…¥è¦ä¸Šä¼ çš„ä»“åº“ï¼Œå³é”®git bashï¼Œæ·»åŠ è¿œç¨‹åœ°å€ï¼š
 
  git remote add origin git@github.com:yourName/yourRepo.git  
 
-ºóÃæµÄyourNameºÍyourRepo±íÊ¾ÄãÔÙgithubµÄÓÃ»§ÃûºÍ¸Õ²ÅĞÂ½¨µÄ²Ö¿â£¬¼ÓÍêÖ®ºó½øÈë.git£¬´ò¿ªconfig£¬ÕâÀï»á¶à³öÒ»¸öremote ¡°origin¡±ÄÚÈİ£¬Õâ¾ÍÊÇ¸Õ²ÅÌí¼ÓµÄÔ¶³ÌµØÖ·£¬Ò²¿ÉÒÔÖ±½ÓĞŞ¸ÄconfigÀ´ÅäÖÃÔ¶³ÌµØÖ·¡£
+åé¢çš„yourNameå’ŒyourRepoè¡¨ç¤ºä½ å†githubçš„ç”¨æˆ·åå’Œåˆšæ‰æ–°å»ºçš„ä»“åº“ï¼ŒåŠ å®Œä¹‹åè¿›å…¥.gitï¼Œæ‰“å¼€configï¼Œè¿™é‡Œä¼šå¤šå‡ºä¸€ä¸ªremote â€œoriginâ€å†…å®¹ï¼Œè¿™å°±æ˜¯åˆšæ‰æ·»åŠ çš„è¿œç¨‹åœ°å€ï¼Œä¹Ÿå¯ä»¥ç›´æ¥ä¿®æ”¹configæ¥é…ç½®è¿œç¨‹åœ°å€ã€‚
 
-4.Ìá½»¡¢ÉÏ´«
+4.æäº¤ã€ä¸Šä¼ 
 
-½ÓÏÂÀ´ÔÚ±¾µØ²Ö¿âÀïÌí¼ÓÒ»Ğ©ÎÄ¼ş£¬±ÈÈçREADME£¬
+æ¥ä¸‹æ¥åœ¨æœ¬åœ°ä»“åº“é‡Œæ·»åŠ ä¸€äº›æ–‡ä»¶ï¼Œæ¯”å¦‚READMEï¼Œ
 
 git add README  
 git commit -m "first commit"  
 
-ÉÏ´«µ½github£º
+ä¸Šä¼ åˆ°githubï¼š
 
 
  git push origin master  
 
-git pushÃüÁî»á½«±¾µØ²Ö¿âÍÆËÍµ½Ô¶³Ì·şÎñÆ÷¡£
-git pullÃüÁîÔòÏà·´¡£
+git pushå‘½ä»¤ä¼šå°†æœ¬åœ°ä»“åº“æ¨é€åˆ°è¿œç¨‹æœåŠ¡å™¨ã€‚
+git pullå‘½ä»¤åˆ™ç›¸åã€‚
 
-ĞŞ¸ÄÍê´úÂëºó£¬Ê¹ÓÃgit status¿ÉÒÔ²é¿´ÎÄ¼şµÄ²î±ğ£¬Ê¹ÓÃgit add Ìí¼ÓÒªcommitµÄÎÄ¼ş£¬Ò²¿ÉÒÔÓÃgit add -iÀ´ÖÇÄÜÌí¼ÓÎÄ¼ş¡£Ö®ºógit commitÌá½»±¾´ÎĞŞ¸Ä£¬git pushÉÏ´«µ½github¡£
+ä¿®æ”¹å®Œä»£ç åï¼Œä½¿ç”¨git statuså¯ä»¥æŸ¥çœ‹æ–‡ä»¶çš„å·®åˆ«ï¼Œä½¿ç”¨git add æ·»åŠ è¦commitçš„æ–‡ä»¶ï¼Œä¹Ÿå¯ä»¥ç”¨git add -iæ¥æ™ºèƒ½æ·»åŠ æ–‡ä»¶ã€‚ä¹‹ågit commitæäº¤æœ¬æ¬¡ä¿®æ”¹ï¼Œgit pushä¸Šä¼ åˆ°githubã€‚
+
+
+***************************************
+don't use such file name: git ****, it will generate errors when it is used in git bash.
