@@ -53,6 +53,16 @@ Checking out（切换）：该操作指从一个分支切换到另一个分支�
 
 
 how to merge :
-
-
 git merge 
+=======
+在命令模式下键入"ZZ"或者":wq"保存修改并且退出 vi 。
+
+
+解决diff,
+
+step1: git fetch originDaily
+       git checkout -b feature-A originDaily/feature-A ????
+       git merge master
+ step2: git checkout master
+        git merge --no-ff feature-A
+        git push originDaily master
