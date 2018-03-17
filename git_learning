@@ -49,3 +49,10 @@ Feature branch（功能分支/特性分支）：一个基于主分支的独立�
 Pull Request（发布请求）：一个 Github 工具，允许用户轻松地查看某功能分支的更改 （the difference或 “diff”），同时允许用户在该分支合并到主分支之前对其进行讨论和调整。
 Merging（合并）：该操作指获取功能分支的提交，加入到主分支提交历史的顶部。
 Checking out（切换）：该操作指从一个分支切换到另一个分支。
+
+
+
+how to merge :
+
+
+git merge 
