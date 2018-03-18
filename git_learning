@@ -66,6 +66,7 @@ step1: git fetch originDaily
  step2: git checkout master
         git merge --no-ff feature-A
         git push originDaily master
+*****************************************************************************************
 Github网站访问慢解决方案
 原创 2018年03月17日 14:19:08 6
 1.用浏览器访问 IPAddress.com
@@ -81,3 +82,10 @@ Github网站访问慢解决方案
 4.刷新本机DNS，进入 cmd 命令操作窗口 输入ipconfig/flushdns
 
 5.重启浏览器
+
+
+********************************************************************************************
+
+if the branch is set to protected branches...
+then can't push to remote from local ,need reviewer & merge ?
+then how to push & check diff & @reviewer.
