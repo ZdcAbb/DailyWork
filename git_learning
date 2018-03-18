@@ -66,3 +66,18 @@ step1: git fetch originDaily
  step2: git checkout master
         git merge --no-ff feature-A
         git push originDaily master
+Github网站访问慢解决方案
+原创 2018年03月17日 14:19:08 6
+1.用浏览器访问 IPAddress.com
+
+2.分别获得github.com和github.global.ssl.fastly.net对应的ip地址
+
+3.编写本地hosts文件，添加
+
+151.101.***.194       github.global.ssl.fastly.net
+
+192.30.***.112		github.com
+
+4.刷新本机DNS，进入 cmd 命令操作窗口 输入ipconfig/flushdns
+
+5.重启浏览器
