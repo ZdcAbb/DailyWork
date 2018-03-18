@@ -14,4 +14,4 @@ feature E-Autotester
 
 feature F-learning
 
-![Image text](/image/lianhua.jpg）
+![Image text](DailyWork/image/lianhua.jpg）
