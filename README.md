@@ -14,4 +14,4 @@ feature E-Autotester
 
 feature F-learning
 
-![image text] (https://github.com/ZdcAbb/DailyWork/blob/master/image/lianhua.jpg)
+![image text](https://github.com/ZdcAbb/DailyWork/blob/master/image/lianhua.jpg);
