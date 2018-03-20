@@ -8,7 +8,7 @@ install:
 script:
   - py.test print.py
 deploy:
-  provider: pages
+  provider: Releases
   skip-cleanup: true
   github-token: $dailiywork_token # Set in travis-ci.org dashboard, marked secure
   keep-history: true
