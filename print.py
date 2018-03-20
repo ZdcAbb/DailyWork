@@ -3,7 +3,7 @@ print "hello world"
 
 # ¹¦ÄÜ
 def func(x):
-    return x + 1
+    return x + 2
 
 # ²âÊÔÓÃÀı
 def test_answer():
