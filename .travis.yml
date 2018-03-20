@@ -14,3 +14,9 @@ deploy:
   keep-history: true
   on:
     branch: master
+  provider: releases
+  skip-cleanup: true
+  github-token: $dailiywork_token # Set in travis-ci.org dashboard, marked secure
+  keep-history: true
+  on:
+    branch: master
