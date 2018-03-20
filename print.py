@@ -3,7 +3,7 @@ print "hello world"
 
 # 功能
 def func(x):
-    return x + 1
+    return x + 2
 
 # 测试用例
 def test_answer():
