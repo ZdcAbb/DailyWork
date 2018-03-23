@@ -6,5 +6,5 @@ print r.status
 print r.data
 print len(manager.pools)
 
-assert 1 == len(manger.pools)
+assert 1 == len(manager.pools)
 
