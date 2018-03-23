@@ -1,10 +1,18 @@
 print "hello world"
-import urllib3
-manager = urllib3.PoolManager()
-r = manager.request('GET', 'http://www.baidu.com')
+import urllib
+import json
 
-print r.data
-print len(manager.pools)
+def get_dic(url):
+    page = urllib.urlopen(url)
+    html = page.read()
+    page.close()
+    dic=json.loads(html)
+    return dic
 
-assert 1 == len(manager.pools)
+dic = get_dic("http://www.weather.com.cn/data/cityinfo/101010100.html")
 
+print dic['weatherinfo']['city']
+print dic['weatherinfo']['ptime']
+print dic['weatherinfo']['temp1']
+print dic['weatherinfo']['temp2']
+print dic['weatherinfo']['weather']
