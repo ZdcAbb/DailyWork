@@ -1,13 +1,16 @@
 language: python
 python:
-  - "2.7"
+  #- "2.7"
+  - "3.6.4"
 # command to install dependencies
 install:
-  - pip install -r requirements.txt
+  #- pip install -r requirements.txt
+   - pip install -r requirements3.txt
 # command to run tests
 script:
-  - py.test print.py --junitxml=report\test_one_func.xml
+  #- py.test print.py --junitxml=report\test_one_func.xml
   #- py.test worm2.py --junitxml=report\test_two_func.xml
+  - py.test WeatherWorm.py --junitxml=report\test_weather.xml
 deploy:
   provider: pages
   skip-cleanup: true
