@@ -85,7 +85,9 @@ def get_data(html_text):
         final.append(temp)   #将temp加到final中
 
     return final
-
+def test_function():
+	assert 1=1
+	
 
 def write_data(data, name):
     file_name = name
