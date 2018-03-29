@@ -92,8 +92,7 @@ def write_data(data, name):
     with open(file_name, 'a', errors='ignore', newline='') as f:
             f_csv = csv.writer(f)
             f_csv.writerows(data)
-def test_getData():
-    assert get_data(get_content('http://www.weather.com.cn/weather/101010100.shtml'))<>0
+
 
 if __name__ == '__main__':
     url ='http://www.weather.com.cn/weather/101010100.shtml'
