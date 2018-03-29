@@ -86,7 +86,7 @@ def get_data(html_text):
 
     return final
 def test_function():
-	assert 1=1
+	assert 1==1
 	
 
 def write_data(data, name):
