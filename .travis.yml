@@ -11,7 +11,7 @@ script:
   #- py.test print.py --junitxml=report\test_one_func.xml
   #- py.test worm2.py --junitxml=report\test_two_func.xml
   #- pytest WeatherWorm.py --junitxml=report\test_weather.xml
-  - pytest WeatherWorm.py --html=report\test_weather.html
+  - pytest -v WeatherWorm.py --html=report\test_weather.html
 deploy:
   provider: pages
   skip-cleanup: true
