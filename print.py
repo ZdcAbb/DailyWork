@@ -1,7 +1,6 @@
 import urllib
 import json
 
-print "hello world"
 #coding=utf-8
 
 #  
@@ -13,5 +12,7 @@ def test_answer():
     assert func(3) == 5
     
     
-print "hello world"
+print ('hello world')
+print (func(5))
+
 
