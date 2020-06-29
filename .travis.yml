@@ -1,0 +1,21 @@
+language: python
+python:
+  #- "2.7"
+  - "3.6.4"
+# command to install dependencies
+install:
+  #- pip install -r requirements.txt
+   - pip install -r requirements3.txt
+# command to run tests
+script:
+  #- py.test print.py --junitxml=report\test_one_func.xml
+  #- py.test worm2.py --junitxml=report\test_two_func.xml
+  #- pytest WeatherWorm.py --junitxml=report\test_weather.xml
+   - py.test -v WeatherWorm.py --html=report\test_weather.html
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $dailiywork_token # Set in travis-ci.org dashboard, marked secure
+  keep-history: true
+  on:
+    branch: master
