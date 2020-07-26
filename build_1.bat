@@ -1,1 +1,1 @@
-C:\Daocheng\DailyWork\python print.py
+print "test batch"
