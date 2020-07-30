@@ -9,7 +9,7 @@ pipeline {
 
     stage('step2') {
       steps {
-        bat(script: 'build_1.bat', returnStatus: true)
+        echo 'hello world 2'
       }
     }
 
