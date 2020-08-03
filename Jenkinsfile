@@ -12,7 +12,7 @@ pipeline {
     stage('Build') {
 		steps {
         bat """
-            BuildTestTools.bat
+            call BuildTestTools.bat
         """
         // Parallel?
 		}
