@@ -1,5 +1,5 @@
 pipeline {
-  agent none
+  agent any
   stages {
     stage('step1') {
       steps {
@@ -12,7 +12,7 @@ pipeline {
     stage('Build') {
 		steps {
         bat """
-            call BuildTestTools.bat
+        call BuildTestTools.bat
         """
         // Parallel?
 		}
