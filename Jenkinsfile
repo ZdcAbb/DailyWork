@@ -10,11 +10,10 @@ pipeline {
     /**************************************************************************/
 
     stage('Build') {
-		steps {
-        bat """
-        call BuildTestTools.bat
-        """
-        // Parallel?
+	steps {
+        	bat """
+        	call BuildTestTools.bat
+       		 """
 		}
     }
     stage('step3') {
