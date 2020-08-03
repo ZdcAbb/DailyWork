@@ -1,1 +1,1 @@
-print "test batch"
+eco " bat file running"
