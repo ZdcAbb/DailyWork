@@ -11,6 +11,7 @@ pipeline {
 
     stage('Build') {
 	steps {
+			#!/bin/bash -ilex
         	sh 'linuxsh.sh'
 		}
     }
