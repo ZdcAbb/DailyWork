@@ -15,9 +15,7 @@ pipeline {
  	        echo %WORKSPACE%
 	        echo %BUILD_ID%
 	        cd %BUILD_ID%
-			printf "%-5s %-10s %-4s\n" No Name Mark;
-			printf "%-5s %-10s %-4.2f\n" 1 aaa %BUILD_ID%;
-			printf "%-5s %-10s %-4.2f\n" 2 bbb 20.146;
+			sh linuxsh.sh 
 			}
 		}
     stage('step3') {
