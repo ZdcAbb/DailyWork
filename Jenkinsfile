@@ -11,10 +11,8 @@ pipeline {
 
     stage('step2') {
 	steps {
- 	    echo %WORKSPACE%
-	    echo %BUILD_ID%
-	    cd %BUILD_ID%
-
+ 	    echo "hello\n world"
+		echo -e "hello\n world"
 
 		}
 	}
