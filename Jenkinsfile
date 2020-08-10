@@ -9,7 +9,7 @@ pipeline {
 
     /**************************************************************************/
 
-    stage('Build') {
+    stage('step2') {
 	steps {
 		script {
  	        echo %WORKSPACE%
