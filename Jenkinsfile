@@ -11,7 +11,7 @@ pipeline {
 
     stage('Build') {
 	steps {
-        	sh linuxsh.sh
+        	sh 'linuxsh.sh'
 		}
     }
     stage('step3') {
