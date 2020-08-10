@@ -11,12 +11,12 @@ pipeline {
 
     stage('step2') {
 	steps {
-		script {
- 	        echo %WORKSPACE%
-	        echo %BUILD_ID%
-	        cd %BUILD_ID%
-			sh linuxsh.sh 
-			}
+		
+ 	    echo %WORKSPACE%
+	    echo %BUILD_ID%
+	    cd %BUILD_ID%
+		sh linuxsh.sh 
+		
 		}
 	}
     stage('step3') {
