@@ -18,6 +18,7 @@ pipeline {
 			sh linuxsh.sh 
 			}
 		}
+	}
     stage('step3') {
       steps {
         echo 'hello world 5'
