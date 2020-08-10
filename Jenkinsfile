@@ -14,7 +14,7 @@ pipeline {
  	    echo %WORKSPACE%
 	    echo %BUILD_ID%
 	    cd %BUILD_ID%
-		sh linuxsh.sh 
+
 
 		}
 	}
