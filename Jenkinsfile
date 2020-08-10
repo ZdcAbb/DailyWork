@@ -11,9 +11,7 @@ pipeline {
 
     stage('Build') {
 	steps {
-        	bat """
-        	call BuildTestTools.bat
-       		 """
+        	sh linuxsh.sh
 		}
     }
     stage('step3') {
